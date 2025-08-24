@@ -78,36 +78,57 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'My Portfolio',
+        description: 'Portfolio Website',
+        bgImage: '/img4.jpeg',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Care-Crest',
+        description: 'Medical Website',
+        bgImage: '/img1.jpeg',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Astra Design',
+        description: 'Design agency Website',
+        bgImage: '/img2.jpeg',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Swift Style',
+        description: 'Ecommerce Website',
+        bgImage: '/img3.jpeg',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+    { 
+      icon: assets.web_icon, 
+      title: 'My Portfolio', 
+      description: 'A modern personal portfolio website showcasing my projects, skills, and experience as a developer.', 
+      link: 'https://wess-portfolio.vercel.app/' 
+    },
+    { 
+      icon: assets.mobile_icon, 
+      title: 'Care-Crest', 
+      description: 'A healthcare management platform enabling patients to book appointments, access profiles, and manage care easily.', 
+      link: 'https://care-crest.vercel.app/' 
+    },
+    { 
+      icon: assets.ui_icon, 
+      title: 'Astra Design', 
+      description: 'A creative UI/UX design project focused on clean layouts, accessibility, and user-friendly interactions.', 
+      link: 'https://astra-design-omega.vercel.app/' 
+    },
+    { 
+      icon: assets.graphics_icon, 
+      title: 'Swift Style', 
+      description: 'A full-featured e-commerce website for handbags and purses with payments, orders, and admin dashboards.', 
+      link: 'https://swift-styles.vercel.app/' 
+    },
+  ]
+  
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages',  description: 'JavaScript, Python, HTML, CSS, React.js, Next.js'  },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
