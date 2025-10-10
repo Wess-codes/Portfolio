@@ -78,27 +78,32 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'My Portfolio',
-        description: 'Portfolio Website',
-        bgImage: '/img4.jpeg',
-    },
-    {
-        title: 'Care-Crest',
-        description: 'Medical Website',
-        bgImage: '/img1.jpeg', 
-    },
-    {
-        title: 'Astra Design',
-        description: 'Design agency Website',
-        bgImage: '/img2.jpeg',
-    },
-    {
-        title: 'Swift Style',
-        description: 'Ecommerce Website',
-        bgImage: '/img3.jpeg',
-    },
-]
+  {
+    title: 'My Portfolio',
+    description: 'Portfolio Website',
+    bgImage: '/img4.jpeg',
+    link: 'https://wess-portfolio.vercel.app/',
+  },
+  {
+    title: 'Care-Crest',
+    description: 'Medical Website',
+    bgImage: '/img1.jpeg',
+    link: 'https://care-crest.vercel.app/',
+  },
+  {
+    title: 'Astra Design',
+    description: 'Design agency Website',
+    bgImage: '/img2.jpeg',
+    link: 'https://astra-design-omega.vercel.app/',
+  },
+  {
+    title: 'Swift Style',
+    description: 'Ecommerce Website',
+    bgImage: '/img3.jpeg',
+    link: 'https://swift-styles.vercel.app/',
+  },
+];
+
 
 export const serviceData = [
     { 
