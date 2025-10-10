@@ -37,7 +37,7 @@ const About = ({isDarkMode}) => {
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.8}}
         className='flex-1'>
-         <p className='mb-10 max-w-2xl font-Ovo'>I am an driven web developer with two years of experience in developing frontend solutions and working with various frontend technologies  </p>
+         <p className='mb-10 max-w-2xl font-Ovo'>I am a driven web developer with four years of experience in developing frontend solutions and working with various frontend technologies  </p>
         <motion.ul 
         initial={{opacity:0}}
         whileInView={{opacity:1}}

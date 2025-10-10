@@ -36,6 +36,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -85,7 +86,7 @@ export const workData = [
     {
         title: 'Care-Crest',
         description: 'Medical Website',
-        bgImage: '/img1.jpeg',
+        bgImage: '/img1.jpeg', 
     },
     {
         title: 'Astra Design',
